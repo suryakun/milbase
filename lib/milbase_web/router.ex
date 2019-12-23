@@ -3,6 +3,7 @@ defmodule MilbaseWeb.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
+    plug MilbaseWeb.Plugs.Context
   end
 
   scope "/api" do

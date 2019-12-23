@@ -1,6 +1,7 @@
 defmodule MilbaseWeb.Schema do
   use Absinthe.Schema
   alias MilbaseWeb.Resolvers
+  
   # import Types
   import_types(MilbaseWeb.Schema.Types)
 
